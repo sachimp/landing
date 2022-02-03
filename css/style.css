@@ -1,0 +1,49 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* import links */
+
+@import url("components/banner.css");
+@import url('components/button.css');
+@import url('components/cards.css');
+@import url('components/footer.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+  background-color: black;
+  color: white;
+}
+
+h1, h3, h4 {
+  font-family: Poppins;
+}
+
+h2 {
+  font-family: 'gaegu';
+  transition: 0.5s;
+}
+
+h2:hover {
+  font-size: 200%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+
+.section-container {
+  width: 900px;
+  margin: auto;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+}

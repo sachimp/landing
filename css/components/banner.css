@@ -1,0 +1,24 @@
+.banner {
+  background-image: url(../../images/normaliser_banner.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin: 0 0 100px 0;
+}
+
+.banner-elements {
+  padding: 150px 0 300px 100px;
+}
+
+.banner-elements h1 {
+  color: rgb(255,254,249);
+  padding: 0;
+  font-size: 80px;
+  text-shadow: 2px 2px black;
+}
+
+.banner-elements h2 {
+  padding: 0px 0 50px 0;
+  color: black;
+  opacity: 0.9;
+  text-align: left;
+}
